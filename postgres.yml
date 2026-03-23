@@ -1,0 +1,13 @@
+- name: Postgressql server installation process
+  hosts: all
+  become: yes
+  roles:
+    - postgres
+
+
+
+
+
+
+
+

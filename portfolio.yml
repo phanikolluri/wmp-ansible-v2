@@ -1,0 +1,8 @@
+- name: Install Portfolio service
+  hosts: all
+  become: yes
+  roles:
+    - portfolio-service
+
+
+

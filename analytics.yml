@@ -1,0 +1,13 @@
+- name: Install Analytics service
+  hosts: all
+  become: yes
+  roles:
+    - analytics
+
+
+
+
+
+
+
+
