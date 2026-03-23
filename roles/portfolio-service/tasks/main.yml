@@ -1,7 +1,3 @@
-- name: Install Portfolio service
-  hosts: all
-  become: yes
-  tasks:
     - name: install java
       ansible.builtin.dnf:
         name: java-21-openjdk-devel
